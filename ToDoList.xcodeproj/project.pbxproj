@@ -37,6 +37,7 @@
 		A9B8E2A02C2A39C600E99958 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8E29F2C2A39C600E99958 /* RegisterViewViewModel.swift */; };
 		A9B8E2A22C2A39F400E99958 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8E2A12C2A39F400E99958 /* ToDoListItemViewViewModel.swift */; };
 		A9B8E2A42C2A3EFA00E99958 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8E2A32C2A3EFA00E99958 /* HeaderView.swift */; };
+		A9E42E472C2CA69500FD4F74 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E42E462C2CA69500FD4F74 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		A9B8E29F2C2A39C600E99958 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		A9B8E2A12C2A39F400E99958 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		A9B8E2A32C2A3EFA00E99958 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A9E42E462C2CA69500FD4F74 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -219,6 +221,7 @@
 				A9B8E24E2C2A23BC00E99958 /* Assets.xcassets */,
 				A9B8E24A2C2A23B800E99958 /* ToDoListApp.swift */,
 				A9B8E2742C2A269E00E99958 /* GoogleService-Info.plist */,
+				A9E42E462C2CA69500FD4F74 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				A9B8E29A2C2A397900E99958 /* ToDoListViewViewModel.swift in Sources */,
 				A9B8E29E2C2A39A300E99958 /* LoginViewViewModel.swift in Sources */,
 				A9B8E24B2C2A23B800E99958 /* ToDoListApp.swift in Sources */,
+				A9E42E472C2CA69500FD4F74 /* Extensions.swift in Sources */,
 				A9B8E2942C2A391800E99958 /* ToDoListItem.swift in Sources */,
 				A9B8E28A2C2A385A00E99958 /* NewItemView.swift in Sources */,
 				A9B8E29C2C2A398C00E99958 /* NewItemViewViewModel.swift in Sources */,
