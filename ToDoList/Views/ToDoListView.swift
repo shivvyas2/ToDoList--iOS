@@ -23,11 +23,9 @@ struct ToDoListView: View {
             VStack{
                 List(items) { item in
                     ToDoListItemView(item : item).swipeActions{
-                        Button{
-                            //Delete
-                        } label:{
-                            Text("Delete").foregroundColor(.red)
-                        }
+                        Button("Delete") {
+                            viewModel.delete(id: item.id)
+                        }.tint(.red)
                     }
                 }
                 
