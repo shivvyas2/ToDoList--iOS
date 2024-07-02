@@ -22,6 +22,7 @@ class NewItemViewViewModel: ObservableObject {
         // Current User ID
         
         guard let uID = Auth.auth().currentUser?.uid else {
+            showAlert = true
             return
         }
         //Create Model
@@ -40,8 +41,17 @@ class NewItemViewViewModel: ObservableObject {
         db.collection("users")
             .document(uID)
             .collection("todos")
-            .document("123")
-            .setData(newItem.asDictionary())
+            .document(newId)
+            .setData(newItem.asDictionary())  { error in
+                if let error = error {
+                    print("Error adding document: \(error)")
+                    self.showAlert = true // Alert the user in case of an error
+                } else {
+                    print("Document successfully added!")
+                    self.title = "" // Optionally clear the title after saving
+                    self.dueDate = Date() // Reset the due date to current
+                }
+            }
         
         
     }
