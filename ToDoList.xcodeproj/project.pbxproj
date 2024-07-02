@@ -182,10 +182,10 @@
 				A9B8E24C2C2A23B800E99958 /* MainView.swift */,
 				A9B8E2852C2A380600E99958 /* ProfileView.swift */,
 				A9B8E2872C2A384600E99958 /* ToDoListView.swift */,
+				A9B8E28F2C2A38C900E99958 /* ToDoListItemView.swift */,
 				A9B8E2892C2A385A00E99958 /* NewItemView.swift */,
 				A9B8E28B2C2A387300E99958 /* LoginView.swift */,
 				A9B8E28D2C2A38A700E99958 /* RegisterView.swift */,
-				A9B8E28F2C2A38C900E99958 /* ToDoListItemView.swift */,
 				A9B8E2A32C2A3EFA00E99958 /* HeaderView.swift */,
 				A937CBA92C2B50500023795E /* TLButton.swift */,
 			);
